@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="script.js"></script>
+    <style>
+        body { background:#111; padding:40px; }
+    .line {
+        position: relative;
+        height: 20px;
+        background: #444;
+        border-radius: 4px;
+        margin: auto;
+        width: 700px;
+    }
+    .point {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        top: 5px;
+        transform: translateX(-50%);
+    }
+    .g { background: #4aa3ff; } 
+    .r { background: #ffcc00; } 
+    .interval {
+        position: absolute;
+        height: 100%;
+        background: rgba(255,0,0,0.7);
+        top: 0;
+    }
+    </style>
+</head>
+<body>
+    <div id="line" class="line"></div>
+</body>
+</html>
